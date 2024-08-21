@@ -2,7 +2,7 @@ name: Daily Script
 
 on:
   schedule:
-    - cron: '51 8 * * *'  # Runs daily at midnight UTC
+    - cron: '5 9 * * *'  # Runs daily at 09:05 UTC (2:35 PM IST)
 
 jobs:
   run_script:
@@ -24,4 +24,3 @@ jobs:
       - name: Run script
         run: |
           python app.py
-          
