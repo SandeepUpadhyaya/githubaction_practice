@@ -2,7 +2,7 @@ name: Daily Script
 
 on:
   schedule:
-    - cron: '27 9 * * *'  # Runs daily at 09:05 UTC (2:35 PM IST)
+  - cron: '*/5 * * * *'  # Runs every 5 minutes
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
