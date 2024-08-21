@@ -23,5 +23,5 @@ jobs:
       
       - name: Run script
         run: |
-          python githubaction_practice\app.py
+          python app.py
           
